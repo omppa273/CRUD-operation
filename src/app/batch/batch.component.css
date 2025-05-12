@@ -1,0 +1,32 @@
+div{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   font-weight: 700;
+}
+
+span{
+    font-weight: 400;
+ 
+}
+
+button{
+    background-color:rgb(29, 155, 240);
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align:top;
+}
+
+button:hover
+{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}

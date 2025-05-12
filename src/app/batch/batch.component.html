@@ -1,0 +1,16 @@
+<div>
+    <p>Details of all Batches from Marvellous Database are :</p>
+
+    <ul *ngFor="let value of Batches">
+        <li><span> Name : </span>  {{value.Name}}</li>
+        <li><span> Fess : </span>  {{value.Fees}}</li>
+        <li><span> Duration : </span>  {{value.Duration}}</li>
+
+    </ul>
+</div>
+
+<button (click)="deleteData()">Delete Data from Marvellous Database</button>
+
+<button (click)="insertData()">Insert Data into Marvellous Database</button>
+
+<button (click)="updateData()">Update Data into Marvellous Database</button>
